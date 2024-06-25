@@ -1,0 +1,23 @@
+.container {
+    @apply flex flex-wrap sm:justify-between items-center justify-center;
+}
+
+.Score {
+    @apply sm:text-[90px] font-medium text-[50px];
+}
+
+.chossenbtn {
+    @apply border-2 border-black py-1 px-3 rounded-sm text-[25px];
+}
+
+.selectbtn {
+    @apply float-end text-[24px] font-bold
+}
+
+.image_container {
+    @apply flex flex-col items-center gap-y-5
+}
+
+.blackbtn {
+    @apply bg-black text-white;
+}
