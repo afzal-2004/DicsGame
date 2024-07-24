@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./Landing.css";
-import Dics from "../../../public/Images/dices 1.png";
+import Dics from "/Images/dices 1.png";
 import { Button } from "../../Components/Button/Button";
 
 export const Landing = ({ event }) => {
